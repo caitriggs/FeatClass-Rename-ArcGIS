@@ -2,10 +2,12 @@
 
 Add Tag to Feature Class is a script tool that runs in ArcMap or ArcCatalog (versions 10.1+). It adds a string of text, or "tag", to the beginning of a feature class (it will not work on other data types such as shapefiles or coverages). In other words, it renames a feature class.
 
-Add the toolbox, "Rename Files", to your ArcToolbox in ArcCatalog or ArcMap.
 
 USING THE TOOL
+Add the toolbox, "Rename Files", to your ArcToolbox in ArcCatalog or ArcMap. Go into the properties of the "Add Tag to Feature Class" script tool and in the Source tab set the path to the Add_Tag_to_File.py file.
+
 If the tag entered into the tool is "Jan2014" and the feature class entered is "Land_Use", then the tool will rename the feature class to "Jan2014_Land_Use". Do not use quotations when entering the tag into the tool; they are used here only for stressing the words entered/output.
+
 
 **********
 WARNING
